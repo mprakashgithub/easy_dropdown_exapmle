@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:easy_dropdown/easy_dropdown.dart';
+import 'package:flutter/material.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            EasyDropdown(listItems: ["A", "B", "C"])
+           
           ],
         ),
       ),
